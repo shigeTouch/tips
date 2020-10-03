@@ -12,8 +12,10 @@
 
 ## 設定内容  
 ### 1. git ユーザー名、メールアドレスの設定  
- ``` $ git config --global user.name "John Doe" ```  
- ``` $ git config --global user.email johndoe@example.com ```  
+ ``` 
+$ git config --global user.name "John Doe"  
+$ git config --global user.email johndoe@example.com  
+ ```  
 
 ### 2. SSH(ディレクトリ、ファイル設定)   
 
@@ -36,7 +38,8 @@ MACのファイル属性（パーミッション）に付与される「@」を�
 
 ``` $ vi ~/.ssh/config``` 
 
-``` Host *   
+``` 
+Host *   
    StrictHostKeyChecking no 
    UserKnownHostsFile=/dev/null   
    ServerAliveInterval 15   
