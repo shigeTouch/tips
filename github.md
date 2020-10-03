@@ -15,7 +15,7 @@
  ``` $ git config --global user.name "John Doe" ```  
  ``` $ git config --global user.email johndoe@example.com ```  
 
-### 2. ディレクトリ、ファイル設定   
+### 2. SSH(ディレクトリ、ファイル設定)   
 
 中身が空のフォルダを作成  
  ``` $ mkdir ~/.ssh ```  
@@ -32,21 +32,23 @@
 MACのファイル属性（パーミッション）に付与される「@」を一括削除  
  ``` $ xattr -cr ~/.ssh ```  
 
-### 3. sshファイル編集  
+### 3. ssh(ファイル編集)  
 
 ``` $ vi ~/.ssh/config``` 
 
-``` Host * ```  
-```   StrictHostKeyChecking no```  
-```   UserKnownHostsFile=/dev/null```   
-```   ServerAliveInterval 15```   
-```   ServerAliveCountMax 30```  
-```   AddKeysToAgent yes```  
-```   UseKeychain yes```  
-```   IdentitiesOnly yes```  
+``` Host *   
+   StrictHostKeyChecking no 
+   UserKnownHostsFile=/dev/null   
+   ServerAliveInterval 15   
+   ServerAliveCountMax 30  
+   AddKeysToAgent yes  
+   UseKeychain yes  
+   IdentitiesOnly yes  
+```    
 
-### ローカルにgit clone作成
-``` git clone https://github.com/^^^^^/リポジトリ名.git ```
+### 4. ローカルにgit cloneを作成  
+ターミナルにてあらかじめリポジトリを作成したいところに移動しておく  
+``` $ git clone https://github.com/^^^^^/リポジトリ名.git ```
 
 [引用：公式サイト](https://git-scm.com/book/ja/v2/Git-%E3%81%AE%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA-Git-%E3%81%AE%E8%A8%AD%E5%AE%9A)  
 [引用：Qiita Mac Git初期設定](https://qiita.com/ucan-lab/items/aadbedcacbc2ac86a2b3#ssh-config)
