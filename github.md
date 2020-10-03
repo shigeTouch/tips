@@ -51,7 +51,9 @@ Host *
 
 ### 4. ローカルにgit cloneを作成  
 ターミナルにてあらかじめリポジトリを作成したいところに移動しておく  
-``` $ git clone https://github.com/^^^^^/リポジトリ名.git ```
+``` 
+$ git clone https://github.com/^^^^^/リポジトリ名.git 
+```
 
 [引用：公式サイト](https://git-scm.com/book/ja/v2/Git-%E3%81%AE%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA-Git-%E3%81%AE%E8%A8%AD%E5%AE%9A)  
 [引用：Qiita Mac Git初期設定](https://qiita.com/ucan-lab/items/aadbedcacbc2ac86a2b3#ssh-config)
