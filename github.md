@@ -1,8 +1,4 @@
- Command + Shift + P  
- Markdown: Open Preview to the Side  
- .md ファイルを開いている状態で、「Command + K」を押してから、  
- 一度手を離して、「V」を押すと  
-
+ 
  ## バージョン確認  
  ``` $ git --version```  
 
@@ -10,7 +6,7 @@
  ### ローカル  
  ``` $ git config -l ```  
  ### グローバル  
- ``` $v git config --global -l ```  
+ ``` $ git config --global -l ```  
  
  ※ -l = --list  
 
